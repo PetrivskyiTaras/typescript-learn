@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/PetrivskyiTaras/typescript-learn/issues"
   },
-  "homepage": "https://github.com/PetrivskyiTaras/typescript-learn#readme"
+  "homepage": "https://github.com/PetrivskyiTaras/typescript-learn#readme",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
 }
