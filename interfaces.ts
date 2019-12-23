@@ -1,4 +1,4 @@
-interface Vehicle {
+interface IVehicle {
   name: string;
   year: number;
   broken: boolean;
@@ -14,7 +14,7 @@ const oldCivic = {
   }
 };
 
-const printVehicle = (vehicle: Vehicle): void => {
+const printVehicle = (vehicle: IVehicle): void => {
   console.log(`Name: ${vehicle.name}`);
   console.log(`Year: ${vehicle.year}`);
   console.log(`Broken: ${vehicle.broken}`);
