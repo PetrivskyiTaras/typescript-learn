@@ -17,6 +17,11 @@
   },
   "homepage": "https://github.com/PetrivskyiTaras/typescript-learn#readme",
   "dependencies": {
-    "axios": "^0.19.0"
+    "@types/faker": "^4.1.8",
+    "axios": "^0.19.0",
+    "faker": "^4.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.4"
   }
 }
