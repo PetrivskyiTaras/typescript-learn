@@ -4,7 +4,8 @@
   "description": "Repo for learning typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:db": "json-server -w ./web/db.json",
+    "start:parcel": "parcel ./web/index.html"
   },
   "repository": {
     "type": "git",
@@ -19,7 +20,7 @@
   "dependencies": {
     "@types/faker": "^4.1.8",
     "@types/googlemaps": "^3.39.0",
-    "axios": "^0.19.0",
+    "axios": "^0.19.1",
     "faker": "^4.1.0"
   },
   "devDependencies": {
