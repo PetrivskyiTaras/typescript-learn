@@ -1,7 +1,9 @@
-// import { User } from './models/User';
+import { User } from './models/User';
 import { UserForm } from './views/UserForm';
 
-const userForm = new UserForm(document.getElementById('root'));
+const user = User.buildUser({ name: 'some name', age: 45 });
+
+const userForm = new UserForm(document.getElementById('root'), user);
 userForm.render();
 
 // const collection = User.buildUserCollection();
