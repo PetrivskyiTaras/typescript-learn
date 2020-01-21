@@ -55,4 +55,8 @@ export class Model<T extends HasId> {
       this.set(response.data);
     });
   }
+
+  save(): void {
+    this.sync.save(this.attributes.getAll());
+  }
 }
